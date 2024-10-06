@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const Header = styled.header`
     width: 100%;
-    background: linear-gradient(to left top, #EF2779, #7834BE);
+    background: linear-gradient(to right bottom, #EF2779, #7834BE);
 `;
 
 export const Navbar = styled.nav`

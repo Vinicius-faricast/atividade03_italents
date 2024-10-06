@@ -3,13 +3,9 @@ import { styled } from "styled-components";
 export const HeroContainer = styled.div`
     width: 100%;
     background-image: url(${(props) => props.$gradient});
-    background-position: 0% 90%;
+    background-position: 0% 100%;
     background-size: cover;
-    /* height: 110%; */
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    /* background: linear-gradient(to left bottom, #EF2779, #7834BE); */
-    border: 1px solid red;
 `;
 
 export const Hero = styled.div`
