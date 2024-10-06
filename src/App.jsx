@@ -1,4 +1,6 @@
 import { Article } from "./components/Article/Article";
+import { Aside } from "./components/Article/Aside/Aside";
+import { Form } from "./components/Form/Form";
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
 import { Main } from "./components/Main/Main";
@@ -11,14 +13,14 @@ function App() {
       price: '00',
     },
     {
-      title: 'Free',
+      title: 'Standart',
       textArticle: 'Organize across all apps by hand',
-      price: '00',
+      price: '10',
     },
     {
-      title: 'Free',
+      title: 'Business',
       textArticle: 'Organize across all apps by hand',
-      price: '00',
+      price: '99',
     }
   ]
 
@@ -32,6 +34,9 @@ function App() {
           <Article key={index} content={data} />
         ))}
       </Main>
+      <Aside>
+        <Form />
+      </Aside>
     </div>
   );
 }

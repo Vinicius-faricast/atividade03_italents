@@ -54,4 +54,11 @@ export const ArticleBtn = styled.button`
     padding: .8rem 1rem;
     font-size: .7rem;
     border: none;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(110%);
+        background: #21618c;
+    }
 `;
